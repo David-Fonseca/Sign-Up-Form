@@ -1,0 +1,119 @@
+*{
+    margin:0;
+}
+@font-face{
+    font-family: family-1;
+    src: url(/fonts/Imbue-VariableFont_opsz\,wght.ttf);
+}
+body{
+    background-image: url(../images/bigmatrix_hradu1t6.gif);
+    color: aliceblue;
+    font-family: family-1;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    width:100vw;
+    height: 100vh;
+    font-size: 200%;
+}
+.content p{
+    padding:0vh 12vh 0vh 6vh;
+}
+.sidebar{
+    width:40vw;
+    height:20vh;
+    font-family: family-1;
+    font-size: 15vh;
+    color: aliceblue;
+    gap:-5;
+    align-self: flex-start;
+    
+    margin-top: 25vh;
+    background-color: black;
+    opacity:0.7;
+    backdrop-filter: blur(10px);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.content{
+    width:60vw;
+    height:100vh;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: start;
+    gap: 4vh;
+}
+
+.form{
+    color: aliceblue;
+    background-color: black;
+    overflow:hidden;
+    width:45vw;
+    font-family: sans-serif;
+    
+    display: flex;
+    flex-direction: column;
+    gap:1vh;
+    padding:2vh 6vh 5vh 6vh;
+}
+
+.inputs{
+    display: flex;
+    flex-direction: column;
+    gap:0;
+}
+.group{
+    display: flex;
+    flex-direction: row;
+    gap:3vw;
+    width: 40vw;
+    margin-top: 1vh;
+}
+
+label{
+    font-size: 0.4em;
+    letter-spacing: 0.02em;
+}
+
+input{
+    background-color: black;
+    border:none;
+    border-bottom: 1px solid white;
+    font-size: 0.6em;
+
+}
+input:hover{
+    border-color: greenyellow;
+}
+
+button{
+    text-align: center;
+    background-color: black;
+    font-family: family-1;
+    color:aliceblue;
+    border-radius: 8px;
+    border-style: groove;
+    border-color: aliceblue;
+    margin-top: 6vh;
+    padding: 1vh 4vh 1vh 4vh;
+    font-size: 0.7em;
+}
+
+button:hover{
+    color:greenyellow;
+    border-color: greenyellow;
+}
+.log-in{
+    margin-top: 5vh;
+    font-size:0.7em;
+}
+a{
+    text-decoration: none;
+    color: green;
+}
