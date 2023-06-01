@@ -6,7 +6,7 @@
     src: url(/fonts/Imbue-VariableFont_opsz\,wght.ttf);
 }
 body{
-    background-image: url(images/background.gif);
+    background-image: url(/images/background.gif);
     color: aliceblue;
     font-family: family-1;
 }
